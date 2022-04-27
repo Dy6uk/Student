@@ -1,0 +1,267 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.wrapper {
+	display:flex;
+	min-height: 100%;
+	overflow: hidden;
+	flex-direction: column;
+	margin: 0px auto;
+}
+.header {
+	background: #445162;
+	padding: 50px;
+}
+.header__body {
+	max-width: 1180px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	margin: 0 auto;
+	flex-wrap:wrap;
+}	
+.menu h1{
+	font-family: Arial;
+	font-size: 60px;
+	line-height: 1.2;
+	font-weight: 400;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	color: #ffffff;
+}
+.menu__text {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	color: #ffffff;
+	margin-top: 35px;
+}
+.text__list {
+	background: url('../img/icon.png') left 8px no-repeat;
+	padding: 0px 0px 0px 40px;
+}
+
+
+
+
+.flexdox{
+	padding: 50px;
+}
+.flexdox__content {
+	display: flex;
+	justify-content:space-between;
+	max-width: 1109px;
+	flex-wrap:wrap;
+	margin: 0 auto;
+}
+.flex {
+	max-width: 641px;
+
+}
+.flex h2{
+	font-family: Arial;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #445161;
+}
+.flex p{
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+ 	margin-top:35px ;
+ }
+ .flex p:nth-child(3){
+ 	max-width: 621px;
+ }
+
+
+
+
+ .row {
+ 	background: #f5f5f5;
+ }
+.row h3{
+	font-family: Arial;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #445161;
+	display: flex;
+	justify-content:center;
+	padding: 50px 0 20px 0;
+}
+.row__body {
+	max-width: 1168px;
+	padding-top: 31px;
+	display: flex;
+	flex-wrap:wrap;
+	margin: 0px -8px;
+	margin: 0 auto;
+}
+.row__1 {
+	display: flex;
+	flex: 0 1 50%;
+	margin: 0px 0px 30px 0px;
+	padding: 0px 8px;
+}
+.img3 {
+	flex: 0 0 200px;
+}
+.row__11 {
+	padding: 0px 0px 0px 15px;
+}
+.row__11 h4{
+	font-family: Arial;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #445161;
+}
+.row__11 p{
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+	margin-top: 15px;
+}
+
+
+
+
+.column__taitle {
+	font-family: Arial;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #445161;
+	text-align: center;
+	padding-top: 49px;
+}
+.column__col {
+	max-width: 990px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin: 0 auto;
+	margin-top: 29px;
+	padding-bottom: 50px;
+
+}
+.colona {
+ 	background: #445162;
+ 	width: 300px;
+	height: 499px;
+	display: flex;
+	flex-direction:column;
+	margin: 15px;
+ }
+.colona h5{
+	font-family: Arial;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;	
+	padding: 15px;
+}		
+	
+.podpis {
+	width: 300px;
+	height: 71px;
+	border: 2px solid #445162;
+	background-color: #ffffff;
+	display: flex;
+	align-items:center;	
+	justify-content:center;
+	text-align: center;
+}
+.podpis p{
+	font-family: Arial;
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #445162;
+ 	text-align: center;
+}
+.text__taitel{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #ffffff;
+ 	flex: 1 1 auto;
+   max-width: 250px;
+   margin: 19px;
+}
+.laic {
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #445161;
+	width: 260px;
+	height: 40px;
+	background-color: #ffffff;
+	margin: 20px;
+}
+
+
+.footer {
+	background-color: #000;
+	height: 65px;
+	display: flex;
+	justify-content:center;
+ 	align-items:center;
+}
+.footer p{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #445162;
+	
+}
